@@ -13,9 +13,23 @@ import Movies from '../components/Movies';
 const App = (props) => {
   return (
     <Router>
-      {/*{code here}*/}
+    <div>
+    </div>
     </Router>
   );
 };
 
 export default App
+
+
+/*ReactDOM.render((
+  <Router>
+    <div>
+      <Navbar />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/login" component={Login} />
+    </div>
+  </Router>),
+  document.getElementById('root')
+);*/
