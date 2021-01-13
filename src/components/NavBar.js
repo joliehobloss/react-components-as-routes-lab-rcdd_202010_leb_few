@@ -24,7 +24,7 @@ const NavBar = () => {
           }}
         >About</NavLink>
         <NavLink
-          to="/login"
+          to="/directors"
           exact
           style={link}
           activeStyle={{
