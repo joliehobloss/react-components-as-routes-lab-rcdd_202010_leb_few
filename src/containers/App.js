@@ -14,6 +14,12 @@ const App = (props) => {
   return (
     <Router>
     <div>
+     <div>
+      <Navbar />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/login" component={Login} />
+    </div>
     </div>
     </Router>
   );
@@ -22,14 +28,4 @@ const App = (props) => {
 export default App
 
 
-/*ReactDOM.render((
-  <Router>
-    <div>
-      <Navbar />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/login" component={Login} />
-    </div>
-  </Router>),
-  document.getElementById('root')
-);*/
+
