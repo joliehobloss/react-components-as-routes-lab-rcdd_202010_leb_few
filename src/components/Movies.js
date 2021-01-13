@@ -6,6 +6,8 @@ const Movies = () => {
     <div>
        <h1>Movies Page</h1>
     </div>
+    <div>
+    </div>
   );
 };
 
