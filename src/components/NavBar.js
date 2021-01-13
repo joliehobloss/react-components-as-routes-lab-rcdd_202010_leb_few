@@ -39,7 +39,7 @@ const NavBar = () => {
           activeStyle={{
             background: 'darkblue'
           }}
-        >Directors</NavLink>
+        >Actors</NavLink>
     </div>
   );
 };
