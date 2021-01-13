@@ -33,7 +33,7 @@ const NavBar = () => {
         >Directors</NavLink>
         
          <NavLink
-          to="/directors"
+          to="/actors"
           exact
           style={link}
           activeStyle={{
