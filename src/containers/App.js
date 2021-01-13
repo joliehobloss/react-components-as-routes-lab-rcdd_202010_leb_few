@@ -19,7 +19,7 @@ const App = (props) => {
       <Route exact path="/" component={Home} />
       <Route exact path=" /movies" component={movies} />
       <Route exact path="/directors" component={directors
-      <Route exact path="/directors" component={directors} />
+      <Route exact path="/actors" component={actors} />
     </div>
     </div>
     </Router>
