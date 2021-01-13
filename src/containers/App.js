@@ -18,7 +18,7 @@ const App = (props) => {
       <Navbar />
       <Route exact path="/" component={Home} />
       <Route exact path=" /movies" component={movies} />
-      <Route exact path="/login" component={Login} />
+      <Route exact path="/directors" component={directors} />
     </div>
     </div>
     </Router>
