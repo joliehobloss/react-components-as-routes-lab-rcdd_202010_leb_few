@@ -18,7 +18,7 @@ const App = (props) => {
       <Navbar />
       <Route exact path="/" component={Home} />
       <Route exact path=" /movies" component={movies} />
-      <Route exact path="/directors" component={directors
+      <Route exact path="/directors" component={directors}/>
       <Route exact path="/actors" component={actors} />
     </div>
     </div>
@@ -28,9 +28,5 @@ const App = (props) => {
 
 export default App
 
-/*    <Route exact path="/" component={Home} />
-        <Route exact path="/actors" component={Actors} />
-        <Route exact path="/directors" component={Directors} />
-        <Route exact path="/movies" component={Movies} />*/
 
 
